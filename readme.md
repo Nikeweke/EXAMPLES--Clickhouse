@@ -50,6 +50,7 @@ const clickhouse = new ClickHouse({
     enable_http_compression                 : 0
   },
 });
+clickhouse.sessionId = '123';
 
 const SQL = 'SHOW DATABASES;'
 const result = clickhouse.query(SQL).toPromise()

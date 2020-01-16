@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@apla/clickhouse": "^1.6.1",
     "clickhouse": "^1.2.21"
   }
 }

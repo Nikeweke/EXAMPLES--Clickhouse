@@ -1,5 +1,4 @@
 const { ClickHouse } = require('clickhouse');
-
 const dockerIP = 'http://192.168.99.100'
 const clickhouse = new ClickHouse({
   url: dockerIP,

@@ -8,6 +8,7 @@ services:
     volumes:
       - ./clickhouse_data:/var/lib/clickhouse
 
+  # doesnt work
   # db_client:
   #   image: yandex/clickhouse-client
   #   command: ['--host', 'db']
