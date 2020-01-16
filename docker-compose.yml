@@ -1,0 +1,15 @@
+version: '3'
+services: 
+  db: 
+    image: yandex/clickhouse-server
+    ports: 
+      # for http
+      - "8123:8123" 
+    volumes:
+      - ./clickhouse_data:/var/lib/clickhouse
+
+  # db_client:
+  #   image: yandex/clickhouse-client
+  #   command: ['--host', 'db']
+  #   links: 
+  #     - db:clickhouse-server
