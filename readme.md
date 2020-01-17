@@ -3,6 +3,8 @@
 * [Github](https://github.com/ClickHouse/ClickHouse)
 * [Clickhouse Web Browser](http://ui.tabix.io)
 * [ReadTheDocs](https://clickhouse-docs.readthedocs.io/ru/latest/access_rights.html)
+* [Колоночные базы данных](https://ruhighload.com/Колоночные+базы+данных)
+* [Clickhouse Joins](https://ruhighload.com/Работа+с+join+в+clickhouse)
 ---
 
 ### Особенности
